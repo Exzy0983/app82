@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="happy">#FFD700</color>
+    <color name="sad">#1E90FF</color>
+    <color name="neutral">#808080</color>
+    <color name="angry">#FF4500</color>
+    <color name="excited">#32CD32</color>
+    <color name="background">#FFFFFF</color>
+    <color name="text">#000000</color>
+
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color> <!-- teal_200 정의 -->
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="primaryColor">#BB86FC</color>
+
+
+
+</resources>

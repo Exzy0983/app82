@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 선택 날짜 -->
+    <TextView
+        android:id="@+id/dateField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- 날짜 선택 버튼 -->
+    <Button
+        android:id="@+id/pickDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick a Date" />
+
+    <!-- 감정 -->
+    <TextView
+        android:id="@+id/emotionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emotion"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- 일기 내용 -->
+    <EditText
+        android:id="@+id/diaryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your diary here..."
+        android:minHeight="200dp"
+        android:padding="8dp" />
+
+    <!-- 저장 버튼 -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>
